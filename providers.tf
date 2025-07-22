@@ -1,5 +1,5 @@
 provider "google" {
-  project = "corded-protocol-466606-m0"
-  region  = "us-west1"
-  zone    = "us-west1-a"
+  project = var.project_id
+  region  = var.region
+  zone    = "${var.region}-a"
 }
