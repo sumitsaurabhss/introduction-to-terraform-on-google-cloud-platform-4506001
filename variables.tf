@@ -1,6 +1,6 @@
 variable "project_id" {
     type    = string
-    defaut  = "corded-protocol-466606-m0"
+    default  = "corded-protocol-466606-m0"
 }
 
 variable "region" {
