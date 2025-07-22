@@ -13,7 +13,7 @@ module "app_network" {
     }
   ]
 
-  ingres_rules  = [
+  ingress_rules  = [
     {
       name        = "${var.network_name}-web"
       description = "Inbound web"
