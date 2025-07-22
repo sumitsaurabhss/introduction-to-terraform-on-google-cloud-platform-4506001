@@ -5,35 +5,35 @@ variable "project_id" {
 
 variable "region" {
     type    = string
-    defaut  = "us-west1"
+    default  = "us-west1"
 }
 
 variable "network_name" {
     type    = string
-    defaut  = "app"
+    default  = "app"
 }
 
 variable "network_ip_range" {
     type    = string
-    defaut  = "10.2.0.0/16"
+    default  = "10.2.0.0/16"
 }
 
 variable "image_project" {
     type    = string
-    defaut  = "ubuntu-os-cloud"
+    default  = "ubuntu-os-cloud"
 }
 
 variable "image_family" {
     type    = string
-    defaut  = "ubuntu-2204-lts"
+    default  = "ubuntu-2204-lts"
 }
 
 variable "app_name" {
     type    = string
-    defaut  = "blog"
+    default  = "blog"
 }
 
 variable "machine_type" {
     type    = string
-    defaut  = "e2-micro"
+    default  = "e2-micro"
 }
